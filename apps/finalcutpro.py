@@ -14,11 +14,11 @@ ctx.keymap(
         "blade [tool]": Key("b"),
         "(select | arrow) tool": Key("a"),
         "set duration": Key("ctrl-d"),
-        "insert gap": Key("alt-f"),
+        "insert gap": Key("alt-w"),
         "lower volume": Key("ctrl--"),
         "raise volume": Key("ctrl-="),
         "import": Key("cmd-i"),
-        "add transition": Key("cmd-t"),
+        "add (transition | dissolve)": Key("cmd-t"),
         "play full screen": Key("cmd-shift-f"),
         "(show | hide) browser": Key("cmd-ctrl-1"),
         "(show | hide) timeline": Key("cmd-ctrl-2"),
@@ -26,5 +26,9 @@ ctx.keymap(
         "(show | hide) meters": Key("cmd-shift-8"),
         "(show | hide) transitions": Key("cmd-ctrl-5"),
         "(show | hide) effects": Key("cmd-5"),
+        "(show | hide) colors": Key("cmd-6"),
+        "(show | hide) recording": Key("cmd-alt-8"),
+        "paste effects": Key("cmd-alt-v"),
+        "paste attributes": Key("cmd-shift-v"),
     }
 )
